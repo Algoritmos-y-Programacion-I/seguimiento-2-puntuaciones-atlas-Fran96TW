@@ -1,8 +1,37 @@
 // Análisis (completar)
-// Descripción del programa:
+// Descripción del programa: 
+// La idea del programa es llevar el registro de puntajes para torneos de videojuegos organizados por Eventos Atlas.
+// El programa solicita la cantidad de jugadores y rondas, luego registra los puntajes de cada jugador en cada ronda.
+// Después, calcula el puntaje total de cada jugador y su promedio de puntajes a lo largo de las rondas. 
+// Finalmente, muestra los puntajes totales y los promedios de todos los jugadores.
+
 // Entradas:
+// - El número de jugadores (N), con un valor máximo de 10 jugadores.
+// - El número de rondas (M), con un valor máximo de 5 rondas.
+// - Los puntajes de cada jugador en cada ronda, que deben estar en el rango de 0 a 100.
+
 // Salidas:
+// - El puntaje total de cada jugador.
+// - El puntaje promedio de cada jugador en función de las rondas jugadas.
+
 // Ejemplo:
+
+// Entrada:
+// Please, enter the number of players (max 10): 2
+// Now, enter the number of rounds (max 5): 3
+// Entering scores for Player 1:
+//   Round 1 score (0-100): 80
+//   Round 2 score (0-100): 90
+//   Round 3 score (0-100): 85
+// Entering scores for Player 2:
+//   Round 1 score (0-100): 60
+//   Round 2 score (0-100): 75
+//   Round 3 score (0-100): 70
+
+// Salida:
+// <------------ FINAL RESULTS ------------>
+// Player 1: 255 points | Average: 85.0
+// Player 2: 205 points | Average: 68.33333333333333
 
 
 package ui; // No olvidar especificar el paquete / carpeta de nuestro programa
